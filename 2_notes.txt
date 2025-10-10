@@ -1,0 +1,59 @@
+06/10/2025
+Lecture 2
+
+1. GitHub & Git:
+- why git: version control, change, tracking, collaboration on project
+- difference between GitHub and git (details pic in folder: 2)
+- configuring git:
+git config --global user.name "AforArdi" (to check: git config user.name)
+
+- SSH (Secure Shell): communication protocol
+secure, password-free way to prove who you are when connecting to remote systems
+
+- change control:
+- after adding "git init" in a working directory
+- two types of state in a git file: tracked untracked
+
+"git status" (to check what got changed in the folder)
+
+use "git add <file>..." to update what will be committed
+[use "git rm --cached <file>..." to unstage]
+
+"git add ." to update everything that was changed all over the current folder
+
+use "git restore <file>..." to discard changes in working directory
+
+"git diff" which change was made in the file specifically, changes in the current working directory and changes between I made change in the file after I staged it. so the comparison is happening in the same file but between the staged and the unstaged version
+
+- version control:
+
+- git folder/working directory ---- stagging area ---- local repo --- GitHub repo
+to push my project from stagging area to GitHub repo, I need to move it to local repo. to do that "git commit"
+- git commit: (command flow: git add then git commit)
+
+git log (to see commit history)
+git log --oneline (shortens the info)
+git checkout <commit_id> (to take the head from one commit to another)
+git checkout master (to take the head to the master commit, meaning the recent updated commit, version)
+
+[Every time new feature is added, git add to save the new feature and then make the commit for the recent change]
+
+if I wanna reset my commit (meaning to get back to stagging area or to working flow or to delete everything and start new)
+
+git reset --soft <commit_id> local repo to stagging area
+
+- pushing from local repo to Remote / GitHub repo:
+git remote add origin https://github.com/AforArdi/full_stack.git
+
+here origin is just the identifier for the link. git remote -v (to check what address the identifier is connected to)
+
+git branch -M main (changing default branch name from master to main)
+
+git push -u origin main (push)
+
+
+
+
+
+
+

@@ -2,3 +2,5 @@ Assalamualaikum
 My name is Ardi
 I'm trying my best to learn Web Development
 Assalamualaikum ok
+
+new line that I'm expecting to see in diff ok

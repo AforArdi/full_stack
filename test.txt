@@ -1,8 +1,6 @@
 Assalamualaikum
 My name is Ardi
 I'm trying my best to learn Web Development
-Assalamualaikum ok
 
-new line that I'm expecting to see in diff ok
-
-nooo, this is the new line
+I'm following Anisul Islam and CS50 to build my fundamentals
+Thanks everyone.

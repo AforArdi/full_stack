@@ -51,6 +51,12 @@ git branch -M main (changing default branch name from master to main)
 
 git push -u origin main (push)
 
+git add . -> git commit -m "message here" -> git push (this is the main command flow that we're gonna be using to make changes, save and commit then push to the GitHub repo)
+
+- sometimes we have some secret file on the same folder as the folder I'm continuously pushing on GitHub, that' where the .gitignore file comes in where we put the files name with extension and folder_name/ and those file is gonna be ignored when we push to git repo
+
+- markdown file (README.md)
+
 
 
 

@@ -45,7 +45,8 @@ git reset --soft <commit_id> local repo to stagging area
 - pushing from local repo to Remote / GitHub repo:
 git remote add origin https://github.com/AforArdi/full_stack.git
 
-here origin is just the identifier for the link. git remote -v (to check what address the identifier is connected to)
+here origin is just the identifier for the link.
+git remote -v (to check what address the identifier is connected to, also to check which repository we're working on)
 
 git branch -M main (changing default branch name from master to main)
 
@@ -55,11 +56,42 @@ git add . -> git commit -m "message here" -> git push (this is the main command 
 
 - sometimes we have some secret file on the same folder as the folder I'm continuously pushing on GitHub, that' where the .gitignore file comes in where we put the files name with extension and folder_name/ and those file is gonna be ignored when we push to git repo
 
+10/10/2025
 - markdown file (README.md)
+# for heading 1
+## heading 2
+### heading 3
 
+this is a normal text
 
+**bold text**
 
+_italic text_
 
+```html
+<h1>Example</h2>
+```
+(the first 'html' is to tell the md file this is a html type)
 
+- unordered list
+- 2
 
+1. ordered list
+2. a, b, c
 
+images:
+![alt_text](images/cs50_cat.png)
+
+table:
+| Name       | Age | Country    |
+|:----------:|:---:|:---------: |
+| Ardi       | 20  | Bangladesh |
+| Sarah      | 22  | Canada     |
+| Jonathan   | 25  | USA        |
+
+:-- left align
+:--: center align
+--: right align
+(the use of '-' doesn't matter at least it's one)
+
+- two spaces after one line to make a soft line break (next line without extra space)

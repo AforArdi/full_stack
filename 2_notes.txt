@@ -95,3 +95,18 @@ table:
 (the use of '-' doesn't matter at least it's one)
 
 - two spaces after one line to make a soft line break (next line without extra space)
+
+ASSIGNMENT NOTE
+1. Making clickable image in markdown:
+[![alt text](image-url)](link-url)
+
+2. Size formatted:
+<a href="https://www.facebook.com/RAB06KHULNA">
+  <img src="images/fb\_logo.png" alt="Facebook" width="40" style="border-radius:50%;">
+</a>
+
+3. margin-right doesn’t work on GitHub
+&nbsp;&nbsp;&nbsp;
+Each &nbsp; is one non-breaking space
+
+[More in details in 2/mohammad-ardi/README.md]
